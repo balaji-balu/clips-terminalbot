@@ -16,7 +16,7 @@ Run the Terminal Bot
 ```
 python pot.py
 ```
-Open terninal, search the bot (ex. Bb). select .
+Open terminal, search the bot (ex. Bb). select .
 
 Enter `/start` 
 

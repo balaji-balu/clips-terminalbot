@@ -1,3 +1,13 @@
+Create environment file `.env`
+
+```
+TELEGRAM_BOT_TOKEN=your_telegran_token
+POSTGRES_USER=your_user
+POSTGRES_PASSWORD=your_password
+POSTGRES_DB=ecommerce
+POSTGRES_HOST=localhost
+POSTGRES_PORT=5432
+```
 Start postgres docker container 
 ```sh
 docker run -d --name refund-postgres -e POSTGRES_USER=your_user -e POSTGRES_PASSWORD=your_password -e POSTGRES_DB=ecommerce -p 5432:5432 postgres:15
